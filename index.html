@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ accordion card</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+    <body>
+        <img  class="box" src="images/illustration-box-desktop.svg" />
+        <div class="wrapper">
+            <div class="left-images">
+                <img class="pattern" src="images/bg-pattern-desktop.svg" />
+                <img class="woman" src="images/illustration-woman-online-desktop.svg" />
+            </div>
+    
+            <div class="text-list">
+                <h1>FAQ</h1>
+                
+                <div class="list">
+                    <div class="div">
+                        <div class="first-question">
+                            <p id="main-first-paragraph"  onClick="firstClick()" class="s"> How many team members can I invite?</p>
+                            <img onClick="firstClick()"  class="arrow" id="1Rotate"  src="images/icon-arrow-down.svg" />
+                        </div>
+                        <p id="firstShow-paragraph"></p>
+                        <hr id="hr1">
+                    </div>
+
+                    <div class="div">
+                        <div class="second-question">
+                            <p id="main-second-paragraph" onClick="secondClick()" class="s" >What is the maximum file upload size?</p>
+                            <img onClick="secondClick()" class="arrow" id="2Rotate" src="images/icon-arrow-down.svg" />
+                        </div>
+                        <p id="secondShow-paragraph"></p>
+                        <hr id="hr2">
+                    </div>  
+
+                    <div class="div">
+                        <div class="third-question">
+                            <p id="main-third-paragraph" onClick="thirdClick()" class="s" >How do I reset my password?</p>
+                            <img  onClick="thirdClick()" class="arrow" id="3Rotate" src="images/icon-arrow-down.svg" />
+                        </div>
+                        <p id="thirdShow-paragraph" ></p>
+                        <hr id="hr3">
+                    </div>
+
+                    <div class="div" >
+                        <div class="fourth-question">
+                            <p id="main-fourth-paragraph" onClick="fourthClick()" class="s" >Can I cancel my subscription?</p>
+                            <img class="arrow" onClick="fourthClick()"  id="4Rotate" src="images/icon-arrow-down.svg" />
+                        </div>
+                        <p id="fourthShow-paragraph" ></p>
+                        <hr id="hr4">
+                    </div>
+
+                    <div class="div" >
+                        <div class="fifth-question">
+                            <p id="main-fifth-paragraph" onClick="fifthClick()" class="s" >Do you provide additional support?</p>
+                            <img class="arrow" onClick="fifthClick()" id="5Rotate" src="images/icon-arrow-down.svg" />
+                        </div>
+                        <p id="fifthShow-paragraph" ></p>
+                        <hr id="hr5">
+                    </div>    
+                </div> 
+
+            </div>
+        </div>
+        <script src="scrpit.js"></script>
+    </body>
+</html>
